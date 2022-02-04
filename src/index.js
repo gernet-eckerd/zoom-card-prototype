@@ -1,8 +1,13 @@
+import process from 'process/browser';
 import React from 'react';
 import ReactDOM from 'react-dom';
+
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+window.process = process;
+
 
 ReactDOM.render(
   <React.StrictMode>
