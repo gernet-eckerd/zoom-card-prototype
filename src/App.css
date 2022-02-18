@@ -81,3 +81,24 @@ body {
 .modal-body {
   padding: 20px;
 }
+
+.jwt-form {
+  float: left;
+  border: 1px red;
+  margin: 10px;
+  padding: 10px;
+}
+.jwt-form fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+.jwt-form label {
+  display: block;
+  font-weight: bold;
+}
+.jwt-form textarea {
+  border: 1px solid #ccc;
+  width: 300px;
+  height: 200px;
+}
